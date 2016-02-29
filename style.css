@@ -1,0 +1,36 @@
+
+
+h1 {
+	text-align: center;
+}
+
+.row {
+	position: relative;
+	display: inline-block;
+	height: 600;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: -15px;
+}
+
+.col {
+	position: relative;
+	display: inline-block;
+	background-color: red;
+	height: 33%;
+	width: 33.33%;
+	padding: 25px;
+	border: black solid 10px; 
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+	margin-right: -15px;
+}
+
+.col:hover {
+	background-color: white;
+}
+
+.selected {
+	
+}

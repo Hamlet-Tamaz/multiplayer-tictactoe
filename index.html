@@ -3,25 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  
+  <!-- ### -->
+  <link rel="stylesheet" type="css" href="style.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.js"></script>
+ 
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
+
+
 <body>
-  <h2 class="playerTurn"></h2>
-  <div>
-    <div>
-        <div id="cell0"></div>
-        <div id="cell1"></div>
-        <div id="cell2"></div>
+  <div class="container">
+    <h1>Tic-Tac-Toe</h1>
+    <h2 class="first">First player: </h2>
+    <h2 class="playerTurn">Turns:</h2>
+    <div class="board">
+      <div class="row">
+        <div id="cell0" class="col column col-lg-4 col-med-4 col-sm-4">*</div>
+        <div id="cell1" class="col column col-lg-4 col-med-4 col-sm-4 ">*</div>
+        <div id="cell2" class="col column col-lg-4 col-med-4 col-sm-4 ">*</div>
+      </div>
+      <div class="row">
+        <div id="cell3" class="col column col-lg-4 col-med-4 col-sm-4">*</div>
+        <div id="cell4" class="col column col-lg-4 col-med-4 col-sm-4">*</div>
+        <div id="cell5" class="col column col-lg-4 col-med-4 col-sm-4">*</div>
+      </div>
+      <div class="row">
+        <div id="cell6" class="col column col-lg-4 col-med-4 col-sm-4">*</div>
+        <div id="cell7" class="col column col-lg-4 col-med-4 col-sm-4">*</div>
+        <div id="cell8" class="col column col-lg-4 col-med-4 col-sm-4">*</div>
+      </div>
     </div>
-      <div>
-        <div id="cell3"></div>
-        <div id="cell4"></div>
-        <div id="cell5"></div>
-      </div>
-      <div>
-        <div id="cell6"></div>
-        <div id="cell7"></div>
-        <div id="cell8"></div>
-      </div>
+  <div class="row" style="margin-top: 30px">  
+    <button type="button" class="btn">Reset</button>
   </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
